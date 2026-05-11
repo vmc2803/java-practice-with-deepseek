@@ -1,6 +1,6 @@
 package warmup2;
 
-import java.util.*;
+import java.util.Scanner;
 
 public class WarmUp2 {
     public static void main(String[] args) {
@@ -12,10 +12,12 @@ public class WarmUp2 {
             System.out.print("SO AM ");
         }
 
-        if (n % 2 == 0){
-            System.out.print("CHAN");
-        }else{
-            System.out.print("LE");
+        if (n % 2 == 0) {
+            System.out.println("CHAN");
+        } else {
+            System.out.println("LE");
         }
+
+        scanner.close();
     }
 }
