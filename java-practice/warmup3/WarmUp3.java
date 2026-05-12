@@ -9,7 +9,8 @@ public class WarmUp3 {
 
         for (int i = 1; i <= 10; i++) {
             int res = n * i;
-            System.out.println(res);
+            System.out.println(n + " x " + i + " = " + res);
         }
+        scanner.close();
     }
 }
