@@ -1,4 +1,4 @@
-package warmup01;
+package warmup1;
 
 public class WarmUp1 {
     public static void main(String[] args) {
